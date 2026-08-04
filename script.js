@@ -55,7 +55,7 @@ console.log(typeof javaScriptIsFun);
 
 // console.log(typeof 'jonas');
 
-
+/*
 
 javaScriptIsFun = 'YES!'
 
@@ -74,5 +74,27 @@ console.log(typeof year);
 
 console.log(typeof null);
 
+*/
+
+// let are used to decalare valraibles that will be changed later
+
+let age = 30;
+age = 31;
+
+//const used used to declare a variables that will be not changed
+
+// const birthYear = 1990;
 
 
+// const job;
+//var old way to declare a variable
+
+
+var job = "programmer";
+
+job = "teacher"
+
+
+lastName = "Ibrahim";
+
+console.log(lastName);
