@@ -89,7 +89,7 @@ age = 31;
 // const job;
 //var old way to declare a variable
 
-
+/*
 var job = "programmer";
 
 job = "teacher"
@@ -98,3 +98,47 @@ job = "teacher"
 lastName = "Ibrahim";
 
 console.log(lastName);
+*/
+
+//Math operators
+
+const now = 2037;
+const ageAhmed = now - 2020;
+const ageSarah = now - 2018;
+
+console.log(ageAhmed, ageSarah);
+
+console.log(ageAhmed * 2 , ageSarah / 10, 2**3 );
+// 2**3 mean 2 * 2 * 2 
+
+const firstName = "Ahmed";
+const lastName = "Ibrahim";
+
+console.log(firstName + ' ' + lastName);
+
+
+// Assingement Operators
+
+let x = 10 + 5;
+console.log(x);
+
+x += 10; // x = x + 10
+x *= 4 ; // x = x * 4
+x++; // x = x + 1
+x--; // x = x - 1 
+console.log(x);
+
+
+// comparison operators
+
+console.log(ageAhmed > ageSarah); // > , < , >= , <=
+
+console.log(ageSarah >= 18);
+
+
+
+const isFullAge = ageSarah >= 18;
+
+
+console.log(now - 1991 > now - 2018);
+
