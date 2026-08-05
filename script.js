@@ -291,7 +291,7 @@ if (height) {
 
 */
 
-
+/*
 
 
 
@@ -325,11 +325,45 @@ if (favourite === 23) { // '23' == 23 type coercion
 
 if (favourite !== 23) {
   console.log("why not 23?");
-  
 }
 
+*/
 
 
+const hasDriversLicense = true;
+const hasgoodVision = true;
+
+console.log(hasDriversLicense && hasgoodVision);
+
+console.log(hasDriversLicense || hasgoodVision);
+
+
+console.log(!hasDriversLicense);
+
+
+const shouldDrive = hasDriversLicense && hasgoodVision;
+
+if (hasgoodVision && hasDriversLicense) {
+  console.log('Sarah is able to drive');
+  
+}else{
+  console.log('Someone else should drive...');
+};
+
+
+const isTired = false; //C
+
+
+
+console.log(hasDriversLicense && hasgoodVision && isTired);
+
+
+if (hasgoodVision && !isTired && hasgoodVision) {
+  console.log('Sarah is able to drive');
+  
+}else{
+  console.log('Someone else should drive...');
+};
 
 
 
