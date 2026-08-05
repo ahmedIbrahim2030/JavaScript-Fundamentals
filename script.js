@@ -217,6 +217,8 @@ console.log(century);
 
 */
 
+/*
+
 //Type conversion VS Type coertion
 
 
@@ -249,6 +251,41 @@ console.log('23' * '2');
 let n = '1' + 1; // 11 
 n = n - 1; // 11 - 1  = 10 
 console.log(n); // 1 => {Number}
+
+*/
+
+// 5 falsy values : 0, '', undefined, null , NaN
+
+//Falsy values will become to be false when you come to convert them into boolean
+
+
+console.log(Boolean(0));
+
+console.log(Boolean(undefined));
+
+console.log(Boolean('Ahmed'));
+
+console.log(Boolean({}));
+
+console.log(Boolean(''));
+
+const money = 100;
+if (money) {
+  console.log("Don't spend it all ;");
+  
+}else {
+  console.log("You should get a job");
+}
+
+let height = 0;
+
+if (height) {
+  console.log("YAY! height is defined");
+  
+}else {
+  console.log("Height is UNDEFINED");
+  
+};
 
 
 
