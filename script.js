@@ -40,15 +40,15 @@ console.log(myFirstJob);
 
 
 
-let javaScriptIsFun = true;
+// let javaScriptIsFun = true;
 
-console.log(javaScriptIsFun);
-
-
+// console.log(javaScriptIsFun);
 
 
-console.log(typeof true);
-console.log(typeof javaScriptIsFun);
+
+
+// console.log(typeof true);
+// console.log(typeof javaScriptIsFun);
 
 
 // console.log(typeof 23);
@@ -78,8 +78,8 @@ console.log(typeof null);
 
 // let are used to decalare valraibles that will be changed later
 
-let age = 30;
-age = 31;
+// let age = 30;
+// age = 31;
 
 //const used used to declare a variables that will be not changed
 
@@ -144,7 +144,7 @@ console.log(now - 1991 > now - 2018);
 
 */
 
-
+/*
 const now = 2037;
 const ageAhmed = now - 1991;
 const ageSarah = now - 2018;
@@ -186,4 +186,35 @@ console.log('String with \n multiple lines ');
 console.log(`String
   multiple 
   lines`);
+
+*/
+
+
+const age = 19;
+
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+  console.log('Sarah can start driving license ');
+  
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+  
+};
+
+const birthYear = 2012;
+
+let century;
+
+if (birthYear <= 2000) {
+   century = 20;
+}else {
+   century = 21;
+}
+
+console.log(century);
+
+
+
 
