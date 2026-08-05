@@ -189,7 +189,7 @@ console.log(`String
 
 */
 
-
+/*
 const age = 19;
 
 const isOldEnough = age >= 18;
@@ -214,6 +214,41 @@ if (birthYear <= 2000) {
 }
 
 console.log(century);
+
+*/
+
+//Type conversion VS Type coertion
+
+
+// convertion : convert values manually
+const inputYear = '1991';
+
+console.log(Number(inputYear), inputYear);
+
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Ahmed'));
+
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+//coercion : that js convert it automatically behind the scene
+
+console.log('I am ' + 23 + ' Years old');
+
+console.log("I am " + String(23) + " Years old");
+
+console.log('23' + 10 - 3);
+
+console.log('23' * '2');
+
+// * , / , -  -->coercion
+// + concatniation
+
+let n = '1' + 1; // 11 
+n = n - 1; // 11 - 1  = 10 
+console.log(n); // 1 => {Number}
 
 
 
